@@ -6,9 +6,7 @@ pipeline {
     //     }
     // }
 
-    agent {
-        any
-    }
+    agent any
     
     environment {
         CI = 'true'
